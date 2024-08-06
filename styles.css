@@ -231,3 +231,236 @@ footer {
     background-color: #f2f2f2;
 }
 
+/* Estilos generales */
+body {
+    background-image: url('https://images4.alphacoders.com/134/thumb-1920-1347180.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    font-family: Arial, sans-serif;
+    color: #000000; /* Color de texto principal */
+    margin: 0;
+    padding: 0;
+    text-align: left; /* Alineación general del texto a la izquierda */
+}
+
+header {
+    background-color: rgba(0, 0, 0, 0.7); /* Fondo negro semitransparente para el encabezado */
+    padding: 10px 0;
+    text-align: center;
+}
+
+header h1 {
+    color: #fff; /* Color de texto blanco para el encabezado */
+    margin: 0;
+}
+
+header nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+header nav ul li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+header nav ul li a:hover {
+    color: #e75480; /* Cambio de color al pasar el mouse sobre los enlaces */
+}
+
+main {
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 800px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Sombra ligera */
+}
+
+section {
+    margin-bottom: 20px;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: rgba(0, 0, 0, 0.7); /* Fondo negro semitransparente para las secciones */
+    color: #fff; /* Texto blanco para las secciones */
+}
+
+section h2 {
+    color: #6e3179; /* Morado oscuro para los títulos de sección */
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: larger;
+    }
+
+section ul {
+    list-style-type: none;
+    padding: 0;
+    overflow-x: auto; /* Añadido para que se pueda hacer scroll horizontal en caso de contenido desbordante */
+    white-space: nowrap; /* Evita que los elementos se salten de línea */
+}
+
+section ul li {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+section ul li strong {
+    font-weight: bold;
+    margin-right: 5px;
+}
+
+/* Estilos para la sección de Sobre Mí */
+#sobre-mi {
+    text-align: left; /* Alineación a la izquierda del texto */
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    background-color: rgba(0, 0, 0, 0.7);
+    color: #fff;
+}
+
+/* Estilos para la sección de Educación */
+#educacion {
+    text-align: left; /* Alineación a la izquierda del texto */
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    background-color: rgba(0, 0, 0, 0.7);
+    color: #fff;
+}
+
+#educacion table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+#educacion table th,
+#educacion table td {
+    padding: 10px;
+    text-align: left;
+    vertical-align: top;
+}
+
+#educacion table th {
+    background-color: #6e3179; /* Morado oscuro para el fondo de los encabezados */
+    color: #fff; /* Texto blanco para los encabezados */
+    font-weight: bold;
+}
+
+#educacion table td ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+#educacion table td:nth-child(odd) {
+    background-color: rgba(198, 69, 161, 0.7); 
+}
+
+#educacion table td:nth-child(even) {
+    background-color: rgba(198, 69, 161, 0.7); 
+}
+
+#educacion table td:nth-child(odd) ul li,
+#educacion table td:nth-child(even) ul li {
+    margin-bottom: 10px; /* Espacio entre los elementos de lista */
+}
+
+/* Estilos para la sección de Habilidades */
+#habilidades {
+    text-align: left; /* Alineación a la izquierda del texto */
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    background-color: rgba(0, 0, 0, 0.7);
+    color: #fff;
+}
+
+#habilidades table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px; /* Añadido para separación superior */
+}
+
+#habilidades table th,
+#habilidades table td {
+    padding: 10px;
+    text-align: left;
+    vertical-align: top;
+}
+
+#habilidades table th {
+    background-color: #6e3179;
+    color: #fff;
+    font-weight: bold;
+}
+
+#habilidades table td ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+#habilidades table td {
+    background-color: rgba(198, 69, 161, 0.7);
+}
+
+#habilidades table td ul li {
+    margin-bottom: 10px;
+}
+
+/* Estilos para la sección de Contacto */
+#contacto {
+    text-align: left; /* Alineación a la izquierda del texto */
+    padding: 20px;
+    border-radius: 10px;
+    background-color: rgba(0, 0, 0, 0.7);
+    color: #fff;
+}
+
+#contacto table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px; /* Añadido para separación superior */
+}
+
+#contacto table th,
+#contacto table td {
+    padding: 10px;
+    text-align: left;
+    vertical-align: top;
+}
+
+#contacto table th {
+    background-color: #6e3179;
+    color: #fff;
+    font-weight: bold;
+}
+
+#contacto table td ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+#contacto table td {
+    background-color: rgba(198, 69, 161, 0.7);
+}
+
+#contacto table td ul li {
+    margin-bottom: 10px;
+}
+
+/* Estilo para el footer */
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #f2f2f2;
+}
+
