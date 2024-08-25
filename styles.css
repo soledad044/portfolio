@@ -464,3 +464,77 @@ footer {
     background-color: #f2f2f2;
 }
 
+/* Estilos para dispositivos móviles (hasta 600px de ancho) */
+@media (max-width: 600px) {
+    header nav ul li {
+        display: block;
+        margin: 10px 0;
+    }
+
+    main {
+        padding: 10px;
+        margin: 10px auto;
+        max-width: 100%;
+    }
+
+    section {
+        padding: 10px;
+    }
+
+    table {
+        font-size: 14px; /* Ajusta el tamaño de la fuente para que se ajuste mejor a pantallas pequeñas */
+    }
+
+    table th, table td {
+        padding: 8px;
+    }
+}
+
+
+/* Estilos para tabletas (entre 601px y 1024px de ancho) */
+@media (min-width: 601px) and (max-width: 1024px) {
+    header nav ul li {
+        display: inline-block;
+        margin-right: 10px;
+    }
+
+    main {
+        padding: 15px;
+        margin: 15px auto;
+        max-width: 90%;
+    }
+
+    section {
+        padding: 15px;
+    }
+
+    table {
+        font-size: 16px; /* Ajusta el tamaño de la fuente */
+    }
+
+    table th, table td {
+        padding: 10px;
+    }
+}
+
+
+/* Estilos para pantallas grandes (más de 1024px de ancho) */
+@media (min-width: 1024px) {
+    main {
+        padding: 20px;
+        margin: 20px auto;
+        max-width: 800px; /* Ajusta el ancho máximo si es necesario */
+    }
+
+    section {
+        padding: 20px;
+    }
+
+    table {
+        font-size: 18px; /* Ajusta el tamaño de la fuente */
+    }
+
+    table th, table td {
+        padding: 12px;
+    }
+}
